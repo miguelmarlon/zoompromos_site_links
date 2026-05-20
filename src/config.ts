@@ -19,21 +19,21 @@ export const BRAND_CONFIG = {
     },
     {
       title: "Telegram",
-      url: "https://t.me/placeholder",
+      url: "https://t.me/zoompromos",
       icon: Send,
       color: "from-sky-500 to-indigo-500",
       glow: "rgba(14, 165, 233, 0.4)"
     },
     {
       title: "Instagram",
-      url: "https://instagram.com/placeholder",
+      url: "https://www.instagram.com/promos_dozoom/",
       icon: Instagram,
       color: "from-purple-500 via-pink-500 to-orange-500",
       glow: "rgba(236, 72, 153, 0.4)"
     },
     {
       title: "Facebook",
-      url: "https://facebook.com/placeholder",
+      url: "https://www.facebook.com/promosdozoom/",
       icon: Facebook,
       color: "from-blue-600 to-blue-400",
       glow: "rgba(37, 99, 235, 0.4)"
