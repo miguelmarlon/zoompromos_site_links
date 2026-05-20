@@ -2,6 +2,7 @@ import { motion } from 'motion/react';
 import { SocialButton } from './SocialButton';
 import { BRAND_CONFIG } from '../config';
 import { Zap } from 'lucide-react';
+import logoImg from '../assets/logo.jpg'; // <-- ADICIONE ESTA IMPORTAÇÃO (se for .png, mude para .png)
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -39,7 +40,7 @@ export const LinkTree = () => {
         >
           <div className="w-24 h-24 rounded-3xl overflow-hidden shadow-2xl shadow-blue-500/20 mb-6 border border-white/10 relative group">
             <img 
-              src="/images/logo_zoompromos.jpg" // Insira o link da sua foto aqui
+              src={logoImg} // <-- MUDE ESTA LINHA PARA USAR A IMAGEM IMPORTADA
               alt="Zoom Promos"
               className="w-full h-full object-cover relative z-10"
               referrerPolicy="no-referrer"
