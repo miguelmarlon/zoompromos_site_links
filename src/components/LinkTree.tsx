@@ -39,7 +39,7 @@ export const LinkTree = () => {
         >
           <div className="w-24 h-24 rounded-3xl overflow-hidden shadow-2xl shadow-blue-500/20 mb-6 border border-white/10 relative group">
             <img 
-              src=".public\images\logo_zoompromos.jpg" // Insira o link da sua foto aqui
+              src="public/images/logo_zoompromos.jpg" // Insira o link da sua foto aqui
               alt="Zoom Promos"
               className="w-full h-full object-cover relative z-10"
               referrerPolicy="no-referrer"
