@@ -37,9 +37,13 @@ export const LinkTree = () => {
           }}
           className="mb-8 flex flex-col items-center text-center"
         >
-          <div className="w-24 h-24 rounded-3xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center shadow-2xl shadow-blue-500/20 mb-6 p-4 border border-white/10 relative group">
-            <div className="absolute inset-0 bg-blue-400 blur-2xl opacity-20 group-hover:opacity-40 transition-opacity" />
-            <Zap className="w-full h-full text-white relative z-10" />
+          <div className="w-24 h-24 rounded-3xl overflow-hidden shadow-2xl shadow-blue-500/20 mb-6 border border-white/10 relative group">
+            <img 
+              src="https://sua-url-da-foto.com.br/sua-foto.jpg" // Insira o link da sua foto aqui
+              alt="Zoom Promos"
+              className="w-full h-full object-cover relative z-10"
+              referrerPolicy="no-referrer"
+            />
           </div>
           
           <h1 className="text-4xl font-bold tracking-tight mb-2 bg-gradient-to-r from-white to-zinc-400 bg-clip-text text-transparent">
