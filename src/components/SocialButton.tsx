@@ -1,10 +1,10 @@
 import { motion } from 'motion/react';
-import { LucideIcon } from 'lucide-react';
+import { ComponentType } from 'react';
 
 interface SocialButtonProps {
   title: string;
   url: string;
-  icon: LucideIcon;
+  icon: ComponentType<{ className?: string }>;
   color: string;
   glow: string;
 }

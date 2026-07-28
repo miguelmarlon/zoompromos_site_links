@@ -4,6 +4,7 @@
  */
 
 import { Facebook, Instagram, Send, Globe } from 'lucide-react';
+import { WhatsAppIcon } from './components/icons/WhatsAppIcon';
 
 export const BRAND_CONFIG = {
   name: "Zoom Promos",
@@ -16,6 +17,13 @@ export const BRAND_CONFIG = {
       icon: Globe,
       color: "from-blue-500 to-cyan-400",
       glow: "rgba(6, 182, 212, 0.4)"
+    },
+    {
+      title: "WhatsApp",
+      url: "https://chat.whatsapp.com/HpzgED9s9eA8zRowHr6aJD",
+      icon: WhatsAppIcon,
+      color: "from-green-500 to-emerald-400",
+      glow: "rgba(34, 197, 94, 0.4)"
     },
     {
       title: "Telegram",
